@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PredictActivity"
+    tools:ignore="HardcodedText">
+
+    <!--Button to open the image selector-->
+    <Button
+        android:id="@+id/BSelectImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/almendra_sc"
+        android:background="@drawable/custom_button"
+        android:text="SELECT IMAGE"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <!--ImageView to preview the selected image-->
+    <ImageView
+        android:id="@+id/IVPreviewImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/BSelectImage"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+
+    <Button
+        android:id="@+id/PredictImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="632dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/almendra_sc"
+        android:backgroundTint="@color/purple_500"
+        android:background="@drawable/custom_button"
+        android:text="PREDICT"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="632dp"
+        android:backgroundTint="@color/purple_500"
+        android:background="@drawable/custom_button"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/almendra_sc"
+        android:text="Back"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Label"
+        android:layout_width="357dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="575dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/Information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="632dp"
+        android:fontFamily="@font/almendra_sc"
+        android:backgroundTint="@color/purple_500"
+        android:background="@drawable/custom_button"
+        android:layout_marginLeft="290dp"
+        android:text="Info"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

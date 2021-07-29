@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SwayaKT</string>
+    <string name="AnanthL">
+        <a href="https://www.linkedin.com/in/ananth-dharmavaram-96b9a9191/">LinkedIn Profile</a>
+    </string>
+    <string name="AnanthG">
+        <a href="https://github.com/Ananthdharm?tab=repositories">Github Profile</a>
+    </string>
+    <string name="AnanthP">
+        <a href="https://ananthdharm.github.io/Ananth_website/">Personal Website</a>
+    </string>
+
+    <string name="AdarshL">
+        <a href="https://www.linkedin.com/in/adarsh-hiremath-925801150/">LinkedIn Profile</a>
+    </string>
+    <string name="AdarshG">
+        <a href="https://github.com/adarshiremath/">Github Profile</a>
+    </string>
+    <string name="AdarshP">
+        <a href="https://adarshiremath.github.io/">Personal Website</a>
+    </string>
+
+    <string name="KaranL">
+        <a href="https://www.linkedin.com/in/kvup/">LinkedIn Profile</a>
+    </string>
+    <string name="KaranG">
+        <a href="https://github.com/karanupamanyu">Github Profile</a>
+    </string>
+</resources>
